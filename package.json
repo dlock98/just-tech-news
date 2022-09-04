@@ -1,0 +1,19 @@
+{
+  "name": "hacker-news-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "seeds": "node seeds/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-session": "^0.0.1",
+    "connect-session-sequelize": "^7.1.5",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "sequelize": "^6.21.4"
+  }
+}
